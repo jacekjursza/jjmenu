@@ -1,0 +1,44 @@
+body { background:black; padding:10px; text-align:left; font-size:12px; font-family:verdana; color:white; }
+h2 { font-size:20px; border-bottom:1px solid gray; }
+u { text-decoration:none; color:#87E44E; }
+i { color:#D6D6D6; }
+textarea { width:100%; height:200px; margin-top:20px; display:none; }
+.mt { margin-top:50px; }
+a { color:yellow; }
+
+
+/* jjmenu styles */
+
+div.jjmenu {
+	
+	position:absolute;
+	background:#fffef0;
+	border-bottom:1px solid #acaca9;
+	border-right:1px solid #acaca9;
+	padding:0px;
+}
+
+div.jj_menu_item {
+	color:#dddddd;
+	border:1px solid black;
+	background:url(menuitem.gif) no-repeat black;
+	cursor:pointer;
+}
+
+div.jj_menu_item span {
+	display:block;
+	padding:4px;
+}
+
+div.jj_menu_item_more span {
+	background:url(more.gif)  right no-repeat;	
+}
+div.jj_menu_item_more span {
+	padding-right:20px;
+}
+
+div.jj_menu_item_hover {
+	background:#3c3c3c;
+	
+}
+
